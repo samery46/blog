@@ -14,3 +14,20 @@ use App\Http\Controllers\AuthController;
 
 git add .
 git commit -m "Develop sign up"
+git push origin Implement_authentication
+
+git checkout main
+git pull origin main
+git checkout -b Create_login
+
+git add .
+git commit -m "Create Login"
+git push origin Create_login
+
+git checkout main
+git pull origin main
+git checkout -b Create_logout
+
+git add .
+git commit -m "Create Logout"
+git push origin Create_logout
