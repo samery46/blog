@@ -73,4 +73,9 @@ class AuthController extends Controller
                 'email' => 'These credentials do not match our records.',
             ]);
     }
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('auth.login');
+    }
 }
